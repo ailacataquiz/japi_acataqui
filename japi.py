@@ -195,7 +195,7 @@
     "        if userInput != \"QUIT\":\n",
     "            stockData = getStockData(userInput)\n",
     "            print(stockData)\n",
-    "            print(\"Stock Quotes retrived successfully\")\n",
+    "            print(\"Stock Quotes retrived cessfully\")\n",
     "            theData = json.loads(stockData)\n",
     "            resultsData = '\\nThe current price of '+ userInput + ' is: ' + (theData[\"Global Quote\"][\"05. price\"])\n",
     "            print(resultsData)\n",
